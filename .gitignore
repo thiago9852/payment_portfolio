@@ -1,0 +1,24 @@
+
+###> phpunit/phpunit ###
+/phpunit.xml
+/.phpunit.cache/
+###< phpunit/phpunit ###
+
+###> symfony/asset-mapper ###
+/public/assets/
+/assets/vendor/
+
+###< symfony/asset-mapper ###
+
+# Symfony
+.env
+.env.local
+.env.dev
+.env.test
+/vendor
+/var
+/node_modules
+/bin/.composer
+/.history
+/composer.lock
+/composer.json.bak
