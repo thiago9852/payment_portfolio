@@ -1,0 +1,15 @@
+# config/packages/cache.yaml
+framework:
+    cache:
+        # Unique name of your app when using APCu or double-key pools to avoid conflicts.
+        #prefix_seed: your_project_namespace
+
+        # The service name to use as the adapter for the system cache.
+        #system: cache.adapter.system
+
+        # The service name to use as the adapter for the app cache.
+        #app: cache.adapter.filesystem
+
+        # Pools declare your custom cache buckets
+        #pools:
+            #my.dedicated.cache: null
